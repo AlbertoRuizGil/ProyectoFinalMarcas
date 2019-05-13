@@ -1,0 +1,170 @@
+body{
+	background-image: url(../IMAGES/patron_fondo.jpg);
+}
+header{
+	width: 100%;
+	text-align: center;
+}
+
+/*Menú de navegación*/
+nav {
+	background: linear-gradient(to bottom, #66ccff 0%, #0066ff 100%);
+	font-family: 'Pacifico', cursive;
+	width: 1440px;
+	margin: auto;
+	height: 50px;
+	font-size: 28px;
+	padding-top:10px; 
+	color: white;
+	text-align: right;
+}
+nav ul{
+	margin-top: 0px;
+	list-style: none;
+}
+
+
+#menu > li{
+	display: inline-block;
+	margin-right: 10px;
+	position: relative;
+	padding-left: 10px;
+
+}
+
+#menu > li a{
+	text-decoration: none;
+}
+
+#menu > li a:link,nav li a:visited{
+	color:white;
+}
+
+#menu > li a:hover{
+	color: #99c2ff;
+	transition: all .3s;
+}
+/*Fin de Menu de navegacion*/
+
+/*Submenu*/
+
+#submenu{
+	position:absolute;
+	background: linear-gradient(to bottom, #66ccff 0%, #0066ff 100%);
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+	width: 120%;
+}
+
+#submenu > li > a{
+	display: block;
+	text-align: center;
+	padding-right: 45px;
+	padding-top: 15px;
+
+}
+
+#menu li:hover #submenu{
+	visibility: visible;
+	opacity: 1;
+}
+/*Fin de Submenu*/
+
+/*Cuerpo principal de la página*/
+#cuerpo_principal{
+	font-family: 'Pacifico', cursive;
+	width: 1440px;
+	margin:auto;
+	background-image: url(../IMAGES/fondonubes.jpg);
+	padding: 20px 0px 20px 0px;
+	
+}
+
+
+#titulo{
+	font-size:50px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.verso{
+	font-size:30px;
+	text-align: center;
+	font-weight: bold;
+}
+#imagen img{
+	position: relative;
+	left: 585px;
+	border: solid 15px #0066ff;
+	border-radius: 10px;
+	animation: 1.5s vibration infinite;
+	animation-play-state: paused;
+}
+
+#imagen img:hover{
+	border-color: red;
+}
+
+@keyframes vibration {
+
+	20%,60%{
+		transform: translateX(-10px)
+				   rotateX(-40deg)
+				   rotate(-10deg);
+	}
+
+	40%,80%{
+		transform: translateX(10px)
+				   rotateX(40deg)
+		           rotate(10deg);
+	}
+}
+
+#solucion{
+	background: linear-gradient(to bottom, #66ccff 0%, #0066ff 100%);
+	width: 250px;
+	height: 80px;
+	margin: auto;
+}
+
+#sol{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	opacity: 0;
+}
+
+@keyframes mostrar{
+	0%{
+		font-size: 1px;
+	}
+	100%{
+		font-size: 40px;
+		opacity: 1;
+	}
+}
+
+
+/*Fin Cuerpo principal*/
+
+/*Footer*/
+
+footer{
+	background-image: url(../IMAGES/patron_footer.jpg);
+	width: 1440px;
+	margin: auto;
+	height: 75px;
+}
+
+footer img{
+	position:relative;
+	left: 1250px;
+}
+
+footer a:hover{
+	opacity: 0.5;
+}
+
+/*Fin de footer*/

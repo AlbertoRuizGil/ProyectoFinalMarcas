@@ -1,0 +1,9 @@
+<!ELEMENT cuentos (cuento+)>
+<!ELEMENT cuento (titulo, paginas, categoria, imagen, leido)>
+<!ATTLIST cuento
+          id CDATA #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT paginas (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT imagen (#PCDATA)>
+<!ELEMENT leido (#PCDATA)>

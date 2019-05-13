@@ -1,0 +1,168 @@
+body{
+	background-image: url(../IMAGES/patron_fondo.jpg);
+}
+
+/*Cabecera*/
+
+header{
+	width: 100%;
+	text-align: center;
+}
+
+/*Fin de cabecera*/
+
+/*Menú de navegación*/
+nav {
+	background: linear-gradient(to bottom, #66ccff 0%, #0066ff 100%);
+	font-family: 'Pacifico', cursive;
+	width: 1440px;
+	margin: auto;
+	height: 50px;
+	font-size: 28px;
+	padding-top:10px; 
+	color: white;
+	text-align: right;
+}
+nav ul{
+	margin-top: 0px;
+	list-style: none;
+}
+
+
+#menu > li{
+	display: inline-block;
+	margin-right: 10px;
+	position: relative;
+	padding-left: 10px;
+
+}
+
+#menu > li a{
+	text-decoration: none;
+}
+
+#menu > li a:link,nav li a:visited{
+	color:white;
+}
+
+#menu > li a:hover{
+	color: #99c2ff;
+	transition: all .3s;
+}
+/*Fin de Menu de navegacion*/
+
+/*Submenu*/
+
+#submenu{
+	position:absolute;
+	background: linear-gradient(to bottom, #66ccff 0%, #0066ff 100%);
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+	width: 120%;
+	z-index: 1;
+}
+
+#submenu > li > a{
+	display: block;
+	text-align: center;
+	padding-right: 45px;
+	padding-top: 15px;
+
+}
+
+#menu li:hover #submenu{
+	visibility: visible;
+	opacity: 1;
+}
+/*Fin de Submenu*/
+
+/*Cuerpo principal de la página*/
+#cuerpo_principal{
+	font-family: 'Pacifico', cursive;
+	margin:auto;
+	width: 1440px;
+	/*background-color: white;*/
+	background-image: url(../IMAGES/fondonubes.jpg);
+	padding: 50px 0px 20px 0px;
+
+	
+}
+
+#cuerpo_principal h3{
+	font-size:40px;
+	text-align: center;
+	margin-top: 0px;
+	text-decoration: underline;
+}
+
+#contenedor{
+	margin-left:0px;
+	border:solid 10px #0066ff;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+#slide{
+	margin-left:0px;
+	display:flex;	
+}
+
+@-moz-document url-prefix() {
+    #slide img{
+		width: 1420px;
+		height: 580px;
+	} 
+}
+
+
+
+
+/*Botones*/
+
+button{
+	margin:auto;
+	text-align: center;
+	position:relative;
+	left: 630px;
+	width: 50px;
+	height: 50px;
+	background: linear-gradient(to right, #66ccff 0%, #0066ff 100%);
+	color:white;
+	font-weight: bold;
+	font-size: 40px;
+	border-radius: 50px;
+}
+
+button:hover{
+	background: linear-gradient(to right, #a6e1ff 0%, #3d8bff 100%);
+}
+
+button:active{
+	background: linear-gradient(to right, #13affd 0%, #003a91 100%);
+}
+
+/*Fin Botones*/
+
+/*Fin Cuerpo principal*/
+
+/*Footer*/
+
+footer{
+	background-image: url(../IMAGES/patron_footer.jpg);
+	width: 1440px;
+	margin: auto;
+	height: 75px;
+}
+
+footer img{
+	position:relative;
+	left: 1250px;;
+}
+
+footer a:hover{
+	opacity: 0.5;
+}
+
+/*Fin de footer*/

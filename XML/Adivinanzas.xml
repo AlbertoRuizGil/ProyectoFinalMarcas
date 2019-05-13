@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE adivinanzas SYSTEM "./dtd/validaradiv.dtd">
+<?xml-stylesheet type="text/xsl" href="./xsl/adivxsl.xsl"?>
+
+<adivinanzas>
+  <adivinanza id="1">
+    <titulo>Oro parece...</titulo>
+    <texto>Oro parece, plata no es, quién no lo adivine, bien tonto es</texto>
+    <solucion>Platano</solucion>
+    <imagen>huevo.jpg</imagen>
+  </adivinanza>
+  <adivinanza id="2">
+    <titulo>La habrás oído nombrar...</titulo>
+    <texto>La habrás oído nombrar. Piensa, medita, recuerda, ¿qué instrumento musical no tiene mas que una cuerda?</texto>
+    <solucion>Campana</solucion>
+    <imagen>./IMAGES/huevo.jpg</imagen>
+  </adivinanza>
+  <adivinanza id="3">
+    <titulo>En lo alto vive...</titulo>
+    <texto>En lo alto vive, en lo alto mora, en lo alto teje la tejedora.</texto>
+    <solucion>Araña</solucion>
+    <imagen>./IMAGES/huevo.jpg</imagen>
+  </adivinanza>
+  <adivinanza id="4">
+    <titulo>Todos me usan...</titulo>
+    <texto>Todos me usan para descansar. Si ya te lo he dicho, no me busques más.</texto>
+    <solucion>La silla</solucion>
+    <imagen>./IMAGES/huevo.jpg</imagen>
+  </adivinanza>
+  <adivinanza id="5">
+    <titulo>Blanco por dentro...</titulo>
+    <texto>Blanco por dentro, verde por fuera. Si quieres que te lo diga espera</texto>
+    <solucion>Pera</solucion>
+    <imagen>./IMAGES/huevo.jpg</imagen>
+  </adivinanza>
+  <adivinanza id="6">
+    <titulo>Sube llena y baja vacia...</titulo>
+    <texto>Sube llena y baja vacía, y si no se da prisa la sopa se enfría.</texto>
+    <solucion>La cuchara</solucion>
+    <imagen>./IMAGES/huevo.jpg</imagen>
+  </adivinanza>
+  <adivinanza id="7">
+    <titulo>Es su madre tartamuda...</titulo>
+    <texto>Es su madre tartamuda, y su padre un buén cantor. Tiene su vestido blanco y amarillo el corazón.</texto>
+    <solucion>El huevo</solucion>
+    <imagen>./IMAGES/huevo.jpg</imagen>
+  </adivinanza>
+</adivinanzas>

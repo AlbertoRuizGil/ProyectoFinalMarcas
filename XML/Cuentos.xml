@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cuentos SYSTEM "./dtd/validarcuent.dtd">
+<cuentos>
+  <cuento id="1">
+    <titulo>Caperucita roja</titulo>
+    <paginas>8</paginas>
+    <categoria>Clasicos</categoria>
+    <imagen>./IMAGES/Cuentos/Caperucita/</imagen>
+    <leido>500</leido>
+  </cuento>
+  
+  <cuento id="2">
+    <titulo>Los tres cerditos</titulo>
+    <paginas>8</paginas>
+    <categoria>Clasicos</categoria>
+    <imagen>./IMAGES/Cuentos/Los_tres_cerditos/</imagen>
+    <leido>300</leido>
+  </cuento>
+
+  <cuento id="3">
+    <titulo>La liebre y la tortuga</titulo>
+    <paginas>8</paginas>
+    <categoria>Fabulas</categoria>
+    <imagen>./IMAGES/Cuentos/La_liebre_y_la_tortuga/</imagen>
+    <leido>450</leido>
+  </cuento>
+
+  <cuento id="4">
+    <titulo>Aladino</titulo>
+    <paginas>8</paginas>
+    <categoria>Disney</categoria>
+    <imagen>./IMAGES/Cuentos/Aladino/</imagen>
+    <leido>410</leido>
+  </cuento>
+  
+  <cuento id="5">
+    <titulo>La cigarra y la hormiga</titulo>
+    <paginas>8</paginas>
+    <categoria>Fabulas</categoria>
+    <imagen>./IMAGES/Cuentos/La_cigarra_y_la_hormiga/</imagen>
+    <leido>200</leido>
+  </cuento>
+
+  <cuento id="6">
+    <titulo>Bambi</titulo>
+    <paginas>8</paginas>
+    <categoria>Disney</categoria>
+    <imagen>./IMAGES/Cuentos/Bambi/</imagen>
+    <leido>300</leido>
+  </cuento>
+
+  <cuento id="7">
+    <titulo>El patito feo</titulo>
+    <paginas>8</paginas>
+    <categoria>Clasicos</categoria>
+    <imagen>./IMAGES/Cuentos/El_patito_feo/</imagen>
+    <leido>309</leido>
+  </cuento>
+
+  <cuento id="8">
+    <titulo>La sirenita</titulo>
+    <paginas>8</paginas>
+    <categoria>Disney</categoria>
+    <imagen>./IMAGES/Cuentos/La_sirenita/</imagen>
+    <leido>459</leido>
+  </cuento>
+
+  <cuento id="9">
+    <titulo>El león y el ratón</titulo>
+    <paginas>8</paginas>
+    <categoria>Fabulas</categoria>
+    <imagen>./IMAGES/Cuentos/El_leon_y_el_raton/</imagen>
+    <leido>201</leido>
+  </cuento>
+
+  <cuento id="10">
+    <titulo>El pastor y el lobo</titulo>
+    <paginas>8</paginas>
+    <categoria>Fabulas</categoria>
+    <imagen>./IMAGES/Cuentos/El_pastor_y_el_lobo/</imagen>
+    <leido>284</leido>
+  </cuento>
+
+  <cuento id="11">
+    <titulo>El gato con botas</titulo>
+    <paginas>8</paginas>
+    <categoria>Clasicos</categoria>
+    <imagen>./IMAGES/Cuentos/El_gato_con_botas/</imagen>
+    <leido>100</leido>
+  </cuento>
+  
+  <cuento id="12">
+    <titulo>Hansel y Gretel</titulo>
+    <paginas>8</paginas>
+    <categoria>Clasicos</categoria>
+    <imagen>./IMAGES/Cuentos/Hansel_y_gretel/</imagen>
+    <leido>150</leido>
+  </cuento>
+
+  <cuento id="13">
+    <titulo>Pinocho</titulo>
+    <paginas>8</paginas>
+    <categoria>Disney</categoria>
+    <imagen>./IMAGES/Cuentos/Pinocho/</imagen>
+    <leido>150</leido>
+  </cuento>
+
+  <cuento id="14">
+    <titulo>Pulgarcito</titulo>
+    <paginas>8</paginas>
+    <categoria>Clasicos</categoria>
+    <imagen>./IMAGES/Cuentos/Pulgarcito/</imagen>
+    <leido>135</leido>
+  </cuento>
+
+  <cuento id="15">
+    <titulo>Cenicienta</titulo>
+    <paginas>8</paginas>
+    <categoria>Disney</categoria>
+    <imagen>./IMAGES/Cuentos/Cenicienta/</imagen>
+    <leido>170</leido>
+  </cuento>
+
+</cuentos>
